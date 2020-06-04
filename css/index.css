@@ -1,0 +1,36 @@
+
+header {
+  background-color: #e8f2f9;
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  top: 0;
+  left: 0
+}
+
+#header-logo {
+  position: absolute;
+  height: 70px;
+  top: 40px;
+  left: 40px;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  display: inline;
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  display: inline;
+}
+#header-navbar {
+  position: absolute;
+  top: 73px;
+  right: 40px;
+  display: inline;
+}
