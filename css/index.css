@@ -1,3 +1,24 @@
+p {
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.yellow-button {
+  background-color: #FFEB99;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
 
 header {
   background-color: #e8f2f9;
@@ -13,24 +34,82 @@ header {
   height: 70px;
   top: 40px;
   left: 40px;
+  flex: 2
 }
 
-li {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  display: inline;
-  padding-left: 40px;
-  font-size: 18px;
-}
 
-button {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  display: inline;
-}
 #header-navbar {
   position: absolute;
   top: 73px;
-  right: 40px;
-  display: inline;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  left: 50%;
+}
+
+ul {
+  top: 73px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  flex:1;
+  font-weight: bold;
+  margin-left: 20px;
+  white-space: nowrap;
+  margin-bottom: 20px;
+
+}
+
+.get-help-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  flex:1;
+  margin-top: -10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  white-space: nowrap;
+  text-align: center;
+  border: none;
+  background-color: #A3DDBB;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+
+#main {
+  position: absolute;
+  top: 150px;;
+  left: 0;
+}
+
+.community-updates, .how-it-works{
+  padding: 20px 40px 40px 40px;
+  background-color: #B8E2FF;
+}
+
+
+.community-updates-container, .how-it-works-container {
+  display: flex;
+  justify-content:space-around;
+}
+
+.community-updates-container div{
+    padding:20px;
+    background-color: white;
+}
+
+.box-1 {
+  flex-basis: 40%;
+  /* flex: 1; */
+}
+
+.box-2 {
+  flex-basis: 40%;
+  /* flex: 1; */
 }
