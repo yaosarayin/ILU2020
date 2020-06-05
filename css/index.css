@@ -17,11 +17,16 @@ h2 {
   text-align: center;
 }
 
-h4 {
+h4, a {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  color: black;
   font-size: 18px;
   text-align: center;
+}
+
+div {
+  max-width: 100%;
 }
 
 
@@ -39,26 +44,23 @@ header {
   height: 70px;
   top: 40px;
   left: 40px;
-  flex: 2
 }
 
-
-#header-navbar {
+nav {
   position: absolute;
-  top: 73px;
+  right: 0;
+  width: 60%;
   display: flex;
   justify-content:space-around;
+  align-items: baseline;
   flex-wrap:wrap;
-  left: 50%;
+  padding: 70px 0px 70px 0px;
+
 }
 
-ul {
-  top: 73px;
-  padding: 0;
-  margin: 0;
-}
 
-.nav-links {
+
+nav a {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   flex:1;
@@ -66,7 +68,7 @@ ul {
   margin-left: 20px;
   white-space: nowrap;
   margin-bottom: 20px;
-
+  text-decoration: none
 }
 
 .get-help-button {
@@ -95,10 +97,16 @@ ul {
 /*********************************/
 
 .hero-banner {
+  text-align: center;
+  padding: 40px;
+}
+.button-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content:space-around;
 }
+
 .green-button{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -241,16 +249,17 @@ img.how-it-works-img {
 }
 
 .box-right {
-  flex-basis: 30%;
+  flex-basis: 60%;
   /* flex: 1; */
 }
 
 .supporters-img-container {
   display: flex;
+  flex-wrap:wrap;
 
 }
 img.supporters {
   padding-left: 50px;
-  flex-wrap:wrap;
-  max-width:200px;
+  max-height:50px;
+  padding: 20px;
 }
