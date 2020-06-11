@@ -1,4 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
 
-button.blue-button.services-button {
-  width: 150px;
+.light-blue-button{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 20px;
+  white-space: nowrap;
+  text-align: center;
+  border: none;
+  background-color: #B8E2FF;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  }
+
+
+img {
+  max-height: 300px;
+  margin: 20px;
+}
+
+a.blue-button.services-button {
+  width: 120px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.resources-links {
+  text-decoration: none;
+  text-align: left;
+  font-size: 14px;
+  padding: 5px;
+}
+
+
+#citizenship{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  background-color: #E8F2F9;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 20px 0 20px 0;
+
+}
+
+#DACA{
+  margin-right:0;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  background-color: #B8E2FF;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 20px 0 20px 0;
+
+}
+
+
+#green-cards{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 40px 0 40px 0;
+  background-color: #A3DDBB;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+
+#permits {
+  margin-right:0;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  background-color: #E8F2F9;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 20px 0 20px 0;
+}
+
+.services-content {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  margin-left: 40px;
+  text-align: right;
 }
